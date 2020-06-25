@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{  int h,b,area;
+	int arr[3];
+	arr[0] = (4,0);
+	arr[1] = (4,-5);
+	arr[2] = (7,-5);
+	arr[3] = (7,0);
+	h= arr[0]-1;
+	b=arr[0]-3;
+	area=h+b;
+	printf("%d", area);
+}
